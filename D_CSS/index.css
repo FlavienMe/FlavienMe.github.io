@@ -8,6 +8,10 @@ body
 	background-color: #ffffff;
 }
 
+head
+{
+	position : fixed;
+}
 header
 {
 	background-color: rgba(31,78,95, 0.8);
