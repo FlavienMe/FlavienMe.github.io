@@ -15,6 +15,9 @@ header
 	padding-right: 2%;
 	display: flex;
 	justify-content: space-around;
+	height: 40px;
+	transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
 }
 
 #headerd1
@@ -26,25 +29,35 @@ header ul
 {
 	display: flex;
 	justify-content: space-around;
+	
 }
 
 header ul li
 {
 	list-style:none;
-	
 }
 
 header ul li a
 {
 	text-decoration: none; 
-	color: #a0a0a0;
+	color: #4C4F4F;
 	font-weight: bold;
 	font-size: 200%;
 	padding: 16px;
 	width: 30%;
-	background-color: #f9f9f9;
+	background-color: rgba(220,223,223, 0.8);
 }
 
-header ul li a:hover {
+header:hover
+{
+	background-color: #1f4e5f;
+	height: 50px;
+	transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+	
+}
+
+header ul li a:hover
+{
   background: orange;
 }
