@@ -2,6 +2,7 @@
 {
 	margin: 0;
 	padding: 0;
+	font-size: 1rem;
 }
 
 body
@@ -58,6 +59,17 @@ body
 }
 
 #navheader ul li p
+{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem 4rem;
+    text-decoration: none;
+	transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
+}
+
+#navheader ul li h1
 {
 	display: block;
     color: white;
