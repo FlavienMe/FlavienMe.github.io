@@ -6,7 +6,7 @@
 
 body
 {
-	background-color: #f4f7f7;
+	background-color: #f4f7ff;
 }
 
 header ul
@@ -14,11 +14,21 @@ header ul
     list-style-type: none;
 	overflow: hidden;
     background-color: #1f4e5f;
+	position: fixed;
+    top: 0;
+    width: 100%;
+	border-bottom: 1px solid #f4f7f7;
 }
 
 header ul li
 {
     float: left;
+	border-right: 1px solid #f4f7f7;
+}
+
+li:last-child
+{
+    border-right: none;
 }
 
 header ul li a
@@ -26,13 +36,22 @@ header ul li a
     display: block;
     color: white;
     text-align: center;
-    padding: 1rem 1.6rem;
+    padding: 0.75rem 1.6rem;
     text-decoration: none;
+	transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
 }
 
 header ul li a:hover
 {
     background-color: #111;
+}
+
+header:hover ul li a
+{
+	padding: 1.2rem 1.6rem;
+	transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
 }
 
 
