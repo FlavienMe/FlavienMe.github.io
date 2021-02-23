@@ -31,17 +31,12 @@ body
 #navheader ul li
 {
     float: left;
-	border-right: 1px solid #f4f7f7;
-}
-
-#navheader ul li:last-child
-{
-    border-right: none;
 }
 
 #navheader ul li a
 {
     display: block;
+	border-right: 1px solid #f4f7f7;
     color: white;
     text-align: center;
     padding: 0.75rem 1.6rem;
@@ -62,4 +57,21 @@ body
   -webkit-transition: all 200ms ease;
 }
 
+#navheader ul li p
+{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0.75rem 4rem;
+    text-decoration: none;
+	transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
+}
+
+#navheader:hover #pagename
+{
+	padding: 1.2rem 1.6rem;
+	transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+}
 
