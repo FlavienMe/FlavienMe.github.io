@@ -110,10 +110,11 @@ body
 	padding: 3%;
 	border: 1px #aacfd0 outset;
 	box-shadow: 6px 6px 6px #aacfd0;
+	min-width : 80rem;
 }
 
 #page p
 {
 	font-size: 1em;
-	min-width : 60rem;
+	min-width : 80rem;
 }
