@@ -9,29 +9,37 @@ body
 	background-color: #f4f7ff;
 }
 
-header ul
+#navheader ul
 {
     list-style-type: none;
 	overflow: hidden;
-    background-color: #1f4e5f;
+    background-color: rgba(31,78,95, 0.8);
 	position: fixed;
     top: 0;
     width: 100%;
-	border-bottom: 1px solid #f4f7f7;
+	transition: all 1000ms ease;
+  -webkit-transition: all 1000ms ease;
 }
 
-header ul li
+#navheader:hover ul
+{
+	background-color: rgba(31,78,95, 1);
+	transition: all 200ms ease;
+  -webkit-transition: all 200ms ease;
+}
+
+#navheader ul li
 {
     float: left;
 	border-right: 1px solid #f4f7f7;
 }
 
-li:last-child
+#navheader ul li:last-child
 {
     border-right: none;
 }
 
-header ul li a
+#navheader ul li a
 {
     display: block;
     color: white;
@@ -42,12 +50,12 @@ header ul li a
   -webkit-transition: all 1000ms ease;
 }
 
-header ul li a:hover
+#navheader ul li a:hover
 {
     background-color: #111;
 }
 
-header:hover ul li a
+#navheader:hover ul li a
 {
 	padding: 1.2rem 1.6rem;
 	transition: all 200ms ease;
