@@ -90,9 +90,10 @@ body
 #sitefooter
 {
 	width: 100%;
-	border-top: 1px solid grey;
+	border-top: 1px solid gray;
 	position: fixed;
     bottom: 0;
+	background-color: rgba(200,200,200, 0.7);
 }
 
 #sitefootertext
@@ -110,4 +111,5 @@ body
 	padding: 3%;
 	border: 1px #aacfd0 outset;
 	box-shadow: 6px 6px 6px #aacfd0;
+	background-color: #FCFFFF;
 }
