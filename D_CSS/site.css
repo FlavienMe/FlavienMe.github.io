@@ -10,6 +10,7 @@
 body
 {
 	background-color: #f4f7ff;
+	min-width: 1000px;
 }
 
 #navheader ul
