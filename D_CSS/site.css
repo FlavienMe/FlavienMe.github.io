@@ -5,6 +5,8 @@
 	font-size: 1rem;
 	color: black;
 	text-decoration: none;
+	list-style-type: none;
+	font-weight : normal;
 }
 
 body
@@ -15,7 +17,6 @@ body
 
 #navheader ul
 {
-    list-style-type: none;
 	overflow: hidden;
     background-color: rgba(31,78,95, 0.8);
 	position: fixed;
@@ -44,7 +45,6 @@ body
     color: white;
     text-align: center;
     padding: 0.75rem 1.6rem;
-    text-decoration: none;
 	transition: all 1000ms ease;
   -webkit-transition: all 1000ms ease;
 }
@@ -67,7 +67,6 @@ body
     color: white;
     text-align: center;
     padding: 0.75rem 4rem;
-    text-decoration: none;
 	transition: all 1000ms ease;
   -webkit-transition: all 1000ms ease;
 }
@@ -78,9 +77,13 @@ body
     color: white;
     text-align: center;
     padding: 0.75rem 4rem;
-    text-decoration: none;
 	transition: all 1000ms ease;
   -webkit-transition: all 1000ms ease;
+}
+
+#pagename
+{
+	font-weight : bold;
 }
 
 #navheader:hover #pagename
@@ -102,10 +105,8 @@ body
 #sitefootertext
 {
 	display: block;
-	color: black;
 	text-align: center;
     padding: 0.75rem 0rem;
-	text-decoration: none;
 }
 
 #page
