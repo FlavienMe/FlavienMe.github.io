@@ -7,3 +7,83 @@ header
     background-size: 100% auto;
 	border-bottom: 1px solid #1f4e5f;
 }
+
+#page
+{
+	overflow: hidden;
+}
+
+h2
+{
+	display: block;
+	text-align: center;
+    padding: 1.5rem 0rem;
+	font-weight : bold;
+}
+
+h3
+{
+	display: block;
+	text-align: center;
+    padding: 1rem 0rem;
+	font-weight : bold;
+}
+
+#categs
+{
+	overflow: hidden;
+}
+
+#categ1
+{
+	float: left;
+	width: 47%;
+	transition: all 500ms ease;
+  -webkit-transition: all 500ms ease-in;
+}
+
+#categ1:hover
+{
+	width: 50%;
+	transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+
+#categ2
+{
+	float: right;
+	width: 47%;
+	transition: all 500ms ease;
+  -webkit-transition: all 500ms ease-in;
+}
+
+#categ2:hover
+{
+	width: 50%;
+	transition: all 500ms ease;
+  -webkit-transition: all 500ms ease;
+}
+
+#categs a
+{
+	display: block;
+    text-align: center;
+    padding: 0.75rem 1.6rem;
+	background-color: #aacfd0;
+	border-bottom: 1px solid #FCFFFF;
+}
+
+#categs a:hover
+{
+	background-color: #79a8a9;
+}
+
+#categ1 ul li
+{
+	float: none;
+}
+
+#categ2 ul li
+{
+	float: none;
+}
