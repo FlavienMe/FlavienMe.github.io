@@ -116,3 +116,9 @@ body
 	box-shadow: 6px 6px 6px #aacfd0;
 	background-color: #FCFFFF;
 }
+
+@media handheld {
+  #page{
+	  margin: 1% 1% 6% 1%;
+  }
+}
