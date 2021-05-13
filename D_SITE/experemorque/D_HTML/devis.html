@@ -1,0 +1,114 @@
+﻿<!doctype html>
+	<html lang = "fr">
+		<head>
+		
+			<title>
+				Devis Experemorque
+			</title>
+			<meta charset = "utf-8" />	
+			<link href = "../D_CSS/commun.css" rel = "stylesheet" type = "text/css" />
+			<link href = "../D_CSS/devis.css" rel = "stylesheet" type = "text/css" />
+			<script language = "javascript" src = "../D_JS/devis.js"></script>
+			
+		</head>
+		
+		<body >   
+		
+			<nav>  
+			
+			
+			
+			</nav>
+			
+			<section >
+			    
+				<div id="img1b" >
+					<img id="img1" src = "../D_IMG/logo1.png" />
+				<div/>
+				
+				<div id="img2b">
+					<img id="img2" src = "../D_IMG/remorque5.jpg" />
+				<div/>
+				
+				<div id = "page">
+				
+					<h2>Realise ton reve : fais ton devis !</h2>
+				
+					<div id="saisie">
+						
+						<div id="col1">
+							<ul>
+								<li><input type = "text" placeholder = "Nom Prenom" id = "champ1"/></li>
+								<li><input type = "text" placeholder = "Adresse" id = "champ2"/></li>
+								<li><input type = "text" placeholder = "Ville" id = "champ3"/></li>
+								<li><input type = "text" placeholder = "Code postal" id = "champ4"/></li>
+							<ul/>
+						</div>
+					
+						<div id="col2">
+							<ul>
+								<li><input type = "email" placeholder = "Mail" id = "champ5"/></li>
+								<li><input type = "text" placeholder = "Nombre de remorque" id = "champ6"/></li>
+								<li><p>Option(s) :<p/></li>
+								<li id="coche"><INPUT type="checkbox" id="case1" value="1"><b> Axe de velo   </b><INPUT type="checkbox" id="case2" value="1"><b> Sac avec attaches   </b></li>
+							<ul/>
+						</div>
+					
+					</div>
+					
+					<div class="gener">
+						
+						<input type="button" value="Aperçu du devis" onClick = "devis()" />
+					
+					</div>
+					
+					<div class="gener">
+					
+						<input type="button" onclick="printDiv('devis')" value="Imprimer le devis" />
+						
+					</div>
+					
+					<div id="devis">
+						
+						<div class="ligne" ></div>
+						
+						<div id="img1b" >
+							<img id="img1" src = "../D_IMG/logo1.png" />
+						<div/>
+						
+						<p> Votre devis experemorque </p> </br>
+						
+						<p align="left">
+						Nom Prenom : <label id="text1" /> </label> </br>
+						Adresse : <label id="text2" /> </label> </br>
+						Ville : <label id="text3" /> </label> </br>
+						Code postal : <label id="text4" /> </label> </br> </br>
+						
+						Mail : <label id="text5" /> </label> </br>
+						Nombre de remorque : <label id="text6" /> </label> </br> </br>
+						
+						Option(s) : <label id="text10" /></label><label id="text7" /></label><label id="text8" /></label> </br> </br>
+						
+						Prix unitaire : <label id="text9" /> </label> €
+						</p>
+						
+					</div>
+					
+					
+					
+				</div>
+			
+			</section>
+
+			<footer>  
+
+
+
+			</footer>	
+			
+		</body>	
+		
+	</html>
+
+	
+	
