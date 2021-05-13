@@ -1,0 +1,119 @@
+
+body
+{
+	background-color: #10535B;
+}
+
+#img1
+{
+	
+	width : 5%;
+	padding : 2%;
+	padding-bottom : 0%;
+	
+}
+
+#img1b
+{
+	
+	text-align : center ;
+	
+}
+
+#img2
+{
+	width : 60%;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	margin : 20px;
+	
+}
+
+#img2b
+{
+	
+	text-align : center ;
+	
+
+	
+}
+
+#page
+{
+	margin: 1% 10% 6% 10%;
+	padding: 1.6rem;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	background-color: #FCFFFF;
+}
+
+h2
+{
+	font-size : 2rem;
+	font-weight : bold;
+	padding-bottom : 1.5rem;
+}
+
+#col1
+{
+	float: left;
+	
+}
+
+#col2
+{
+	float: right;
+	
+}
+
+#saisie div
+{
+	width : 50%;
+	
+}
+
+#saisie li
+{
+
+	padding : 1%;
+	
+}
+
+#saisie input
+{
+	width : 90%;
+	padding : 1%;
+	
+}
+
+#coche input
+{
+	width : 10%;
+	
+}
+
+.gener input
+{
+	width: 100%;
+  background-color:#5C463D;
+  color: white;
+  padding: 1% 3%;
+  margin: 3% 0% 1% 0%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+	
+}
+
+.gener input:hover
+{
+	background-color: #690D08;
+}
+
+.ligne
+{
+	background-color: black;
+	width: 100%;
+	height: 1px;
+}
+
