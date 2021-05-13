@@ -12,27 +12,32 @@
 
 body
 {
-	background-color: #f4f7ff;
+	background-color: #3d4e17;
 	min-width: 1000px;
+}
+
+header
+{
+	box-shadow: 0px 10px 10px #151f1e;
+	margin-bottom: 30px;
 }
 
 #navheader ul
 {
 	overflow: hidden;
-    background-color: rgba(31,78,95, 0.8);
 	position: fixed;
     top: 0;
     width: 100%;
-	transition: all 1000ms ease;
-  -webkit-transition: all 1000ms ease;
+	background-color: rgba(199,160,3, 0.8);
 }
+
 
 #navheader:hover ul
 {
-	background-color: rgba(31,78,95, 1);
-	transition: all 200ms ease;
-  -webkit-transition: all 200ms ease;
+	background-color: rgba(199,160,3, 1);
 }
+
+
 
 #navheader ul li
 {
@@ -45,9 +50,8 @@ body
 	border-right: 1px solid #f4f7f7;
     color: white;
     text-align: center;
-    padding: 0.75rem 1.6rem;
-	transition: all 1000ms ease;
-  -webkit-transition: all 1000ms ease;
+    padding: 1rem 1.6rem;
+
 }
 
 #navheader ul li a:hover
@@ -55,21 +59,15 @@ body
     background-color: #111;
 }
 
-#navheader:hover ul li a
-{
-	padding: 1.2rem 1.6rem;
-	transition: all 200ms ease;
-  -webkit-transition: all 200ms ease;
-}
+
 
 #navheader ul li p
 {
 	display: block;
     color: white;
     text-align: center;
-    padding: 0.75rem 4rem;
-	transition: all 1000ms ease;
-  -webkit-transition: all 1000ms ease;
+    padding: 1rem 4rem;
+
 }
 
 #navheader ul li h1
@@ -77,9 +75,8 @@ body
 	display: block;
     color: white;
     text-align: center;
-    padding: 0.75rem 4rem;
-	transition: all 1000ms ease;
-  -webkit-transition: all 1000ms ease;
+    padding: 1rem 4rem;
+
 }
 
 #pagename
@@ -87,12 +84,6 @@ body
 	font-weight : bold;
 }
 
-#navheader:hover #pagename
-{
-	padding: 1.2rem 1.6rem;
-	transition: all 200ms ease;
-  -webkit-transition: all 200ms ease;
-}
 
 #sitefooter
 {
@@ -114,8 +105,8 @@ body
 {
 	margin: 1% 10% 6% 10%;
 	padding: 1.6rem;
-	border: 1px #aacfd0 outset;
-	box-shadow: 6px 6px 6px #aacfd0;
+	border: 1px #151f1e outset;
+	box-shadow: 10px 10px 10px #151f1e;
 	background-color: #FCFFFF;
 }
 
