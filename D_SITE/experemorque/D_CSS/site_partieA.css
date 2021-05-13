@@ -1,0 +1,203 @@
+body
+{
+	background-color: #10535B;
+}
+
+#img1
+{
+	
+	width : 20%;
+	padding : 2%;
+	padding-bottom : 0%;
+	
+}
+
+#img1b
+{
+	
+	text-align : center ;
+}
+
+#img2
+{
+	width : 80%;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	margin : 5px;
+
+	
+}
+
+#img3
+{
+	width : 50%;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	margin : 5px;
+}
+
+#img4
+{
+	width : 12%;
+	margin : 10px 100px;
+	
+}
+
+#img2b
+{
+	text-align : center ;
+}
+
+#page1
+{
+	margin: 2% 10% 2% 10%;
+	padding: 1.6rem;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	background-image:url(../D_IMG/remorque2.jpg);   /* couleur fond */
+}
+
+#page
+{
+	margin: 2% 0% 2% 0%;
+	padding: 1.6rem;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	background-color: #FFFF;   /* couleur fond */
+	text-align: justify;
+}
+
+#page2
+{
+	margin: 2% 10% 2% 10%;
+	padding: 1rem;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	background-color: #BA9C96;   /* couleur fond */
+	text-align: center;
+	float : left;
+}
+
+#page3
+{
+	margin: 2% 0% 0% 0%;
+	padding: 1.6rem;
+	border: 1px #051c1e outset;
+	box-shadow: 10px 10px 6px #051c1e;
+	background-color: #FFFF;   /* couleur fond */
+	text-align: justify;
+}
+
+
+h2
+{
+	font-size : 2rem;
+	font-weight : bold;
+	padding-bottom : 1.5rem;
+	text-align : center;
+    text-decoration: underline;
+
+}
+
+#col1
+{
+	float: left;
+	text-align : center;
+
+	
+}
+
+#col2
+{
+	float: right;
+	text-align: justify;
+	text-shadow: black;
+
+}
+
+label 
+{
+	color : blue;
+	font-size : 2rem;
+	font-weight : bold;
+	padding-bottom : 1.5rem;
+	
+	
+}	
+p1
+{
+	font-size: 24px;
+    font-family : Arial; 
+	color : #FFFF;
+	text-decoration : underline;
+	text-decoration-color: blue;
+	
+
+}
+
+p2
+{
+	font-size: 24px;
+    font-family : Arial; 
+	color : #FFFF;
+	text-decoration : underline;
+	text-decoration-color: blue;
+
+}
+
+p3
+{
+	font-size: 18px;
+    font-family: Arial Black ;
+	color : white;
+	background-color : #10535B;
+}
+p4
+{
+	font-size: 30px;
+    font-family : Arial Black ; 
+	color : #BA9C96;
+
+}
+
+p5
+{
+	font-size: 20px;
+    font-family: Times New Roman ;	
+	color : #99744E;
+
+}
+
+p6
+{
+	font-size: 13px;
+    font-family: Arial ;
+	color : #050200;
+}
+
+p7
+{
+	font-size: 13px;
+    font-family: Arial Black ;
+	color : white;
+	background-color : #10535B;
+	text-align : center;
+	
+}
+
+p10
+{
+	font-size: 2px;
+    font-family : Arial; 
+	color : #FFFF;
+	text-decoration : underline;
+	text-decoration-color: blue;
+
+}
+
+
+#saisie div
+{
+	width : 50%;
+	
+}
