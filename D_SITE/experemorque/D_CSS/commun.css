@@ -9,3 +9,43 @@
 	font-weight : normal;
 	overflow: auto;
 }
+
+#navheader
+{
+	box-shadow: 0px 10px 10px #151f1e;
+	margin-bottom: 30px;
+}
+
+#img1-1
+{
+	
+	width : 3rem;
+	padding : 0%;
+	
+}
+
+#navheader ul
+{
+	overflow: hidden;
+    top: 0;
+    width: 100%;
+	background-color: #1b262c;
+}
+
+#navheader ul li a:hover
+{
+    background-color: black;
+}
+
+#navheader ul li
+{
+    float: left;
+}
+
+#navheader ul li a
+{
+    display: block;
+	border-right: 1px solid #f4f7f7;
+    color: white;
+    text-align: center;
+    padding: 1rem 1.6rem;
