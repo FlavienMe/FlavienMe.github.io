@@ -1,8 +1,10 @@
+/*Codes couleurs hex : blanc page #f9fbfc, bleu fond #203961, vert #a2cdb8, rouge #e1755e, gris bandeau#5d554b.*/
+
 *
 {
 	margin: 0;
 	padding: 0;
-	font-size: 1rem;
+	font: 1rem 'Fira Sans', sans-serif;
 	color: black;
 	text-decoration: none;
 	list-style-type: none;
@@ -12,7 +14,7 @@
 
 body
 {
-	background-color: #3d4e17;
+	background-color: #203961;
 	min-width: 1000px;
 }
 
@@ -20,6 +22,8 @@ header
 {
 	box-shadow: 0px 10px 10px #151f1e;
 	margin-bottom: 30px;
+	height: 9rem;
+	width: 100%;
 }
 
 #navheader ul
@@ -28,13 +32,15 @@ header
 	position: fixed;
     top: 0;
     width: 100%;
-	background-color: rgba(199,160,3, 0.8);
+	background-color: rgba(93, 85, 75, 0.75);
+	box-shadow: 0px 10px 10px rgba(21, 31, 30, 0.75);
 }
 
 
 #navheader:hover ul
 {
-	background-color: rgba(199,160,3, 1);
+	background-color: rgba(93, 85, 75, 1);
+	box-shadow: 0px 10px 10px rgba(21, 31, 30, 1);
 }
 
 
@@ -79,6 +85,12 @@ header
 
 }
 
+#navheader input,button 
+{
+    margin: 0.6rem 2rem 0.6rem 0rem;
+	padding: 0.2rem 1rem;
+}
+
 #pagename
 {
 	font-weight : bold;
@@ -107,7 +119,7 @@ header
 	padding: 1.6rem;
 	border: 1px #151f1e outset;
 	box-shadow: 10px 10px 10px #151f1e;
-	background-color: #FCFFFF;
+	background-color: #f9fbfc;
 }
 
 @media screen and (max-width: 1000px) {
