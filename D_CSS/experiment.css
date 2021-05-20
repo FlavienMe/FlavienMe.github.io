@@ -1,0 +1,60 @@
+/*Bandeau 1920x400*/
+
+header
+{
+	background-image: url("../D_IMG/index.jpg");
+	background-repeat:no-repeat;
+    background-size: 100% auto;
+}
+
+#page
+{
+	overflow: hidden;
+}
+
+h2
+{
+	display: block;
+	text-align: Left;
+    padding: 1.5rem 0rem;
+	font-weight : bold;
+}
+
+#categ1
+{
+	float: left;
+	width: 45%;
+}
+
+#categ2
+{
+	float: right;
+	width: 50%;
+}
+
+#menu a
+{
+	
+
+    padding: 0rem 1.6rem 0rem 2.4rem;
+	border-bottom: 1px solid #FCFFFF;
+}
+
+#menu > ul > li > a
+{
+	display: block;
+    text-align: left;
+    padding: 0rem 0rem 0rem 1.4rem;
+	background-color: #aacfd0;
+	border-bottom: 1px solid #FCFFFF;
+}
+
+#categs a:hover
+{
+	background-color: #79a8a9;
+}
+
+#affichage img
+{
+	width: 100%;
+}
